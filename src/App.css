@@ -1,0 +1,86 @@
+.main-page {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.spinner-component {
+  text-align: center;
+}
+
+.result-list {
+  width: 100%;
+  padding: 0 5% 0 5%;
+}
+
+.list-component {
+  overflow: hidden;
+}
+
+.card-component {
+  width: 18rem;
+  height: 32rem;
+  margin: 2%;
+  float: left;
+  overflow: hidden;
+}
+
+.card-button {
+  position: absolute;
+  left: 1rem;
+  bottom: 0.5rem;
+}
+
+.card-img-component {
+  height: 70%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  padding: 1rem;
+  color: black;
+  font-size: 16.5px;
+  transform: translate(0, -22.4rem);
+  -ms-transform: translate(0, 22.4rem);
+}
+
+.card-img-component:hover .image {
+  opacity: 0.1;
+}
+
+.card-img-component:hover .middle {
+  opacity: 1;
+}
+
+.card-img-component:hover {
+  mask-image: linear-gradient(transparent, black 0, black 20%, transparent 100%);
+}
+
+.information-component {
+  width: 100%;
+  padding: 0 10% 0 10%;
+}
+
+.information-image {
+  height: 400px;
+}
+
+.Nav-Bar {
+  width: 100%;
+  padding: 0 10% 0 10%;
+}
+
+.input-group {
+  width: 80%;
+}
