@@ -1,6 +1,7 @@
 .main-page {
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .spinner-component {
@@ -10,6 +11,7 @@
 .result-list {
   width: 100%;
   padding: 0 5% 0 5%;
+  margin-bottom: 40px;
 }
 
 .list-component {
@@ -68,6 +70,7 @@
 }
 
 .information-component {
+  margin-top: 40px;
   width: 100%;
   padding: 0 10% 0 10%;
 }

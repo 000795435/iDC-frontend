@@ -15,7 +15,7 @@ export default function ResultList({ componentTitle, dataList }) {
 
     return (
         <div className='result-list'>
-            <h5>{componentTitle}</h5>
+            <h5 dangerouslySetInnerHTML={{ __html: componentTitle }} />
             <br />
             {
                 dataList.length === 0 ? <h6>Sorry, No data found</h6> :
@@ -24,7 +24,7 @@ export default function ResultList({ componentTitle, dataList }) {
                             dataList.map((item, index) => (
                                 <div className="card card-component" key={index}>
                                     <div className='card-img-component'>
-                                        <img className="card-img-top image" src={item.image_link} onError={handleBrokeImage} alt="Movie Image" />
+                                        <img className="card-img-top image" src={item.image_link} onError={handleBrokeImage} alt="Movie" />
                                         <div className="middle">
                                             <p>{item.description}</p>
                                         </div>
