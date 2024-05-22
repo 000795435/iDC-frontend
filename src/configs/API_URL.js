@@ -1,4 +1,5 @@
-const base_url = 'http://localhost:7000/';
+// const base_url = 'http://localhost:7000/';
+const base_url = "http://144.34.175.242/api/";
 
 const APIs = {
     default_poster: "https://storage.ubertor.com/cl403/content/image/64507.jpg",
